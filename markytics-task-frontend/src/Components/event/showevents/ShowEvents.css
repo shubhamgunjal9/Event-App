@@ -1,0 +1,19 @@
+.show-events {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 16px;
+    color: #444;
+  }
+  
+  .events-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  

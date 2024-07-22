@@ -1,0 +1,55 @@
+.event-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .event-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  .event-title {
+    margin: 0 0 8px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .event-description, .event-date-time, .event-location, .event-status {
+    margin: 4px 0;
+    color: #555;
+  }
+  
+  .event-status.completed {
+    color: green;
+  }
+  
+  .event-status.not-completed {
+    color: red;
+  }
+  
+  .event-actions {
+    margin-top: 16px;
+  }
+  
+  .update-btn, .delete-btn {
+    padding: 8px 16px;
+    margin: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .update-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  

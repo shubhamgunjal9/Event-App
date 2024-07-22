@@ -1,0 +1,23 @@
+/* User.css */
+
+.signup {
+    max-width: 100%;
+    padding: 1rem; 
+    
+  }
+  
+  .custom-input {
+    width: 100%;
+  }
+
+  
+  @media (max-width: 576px) {
+    .signup {
+      padding: 1rem 0.5rem;
+    }
+  
+    .custom-input {
+      font-size: 14px;
+    }
+  }
+  

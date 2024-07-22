@@ -1,0 +1,24 @@
+.event-card {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.event-card .card-subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.event-card .card-text {
+    font-size: 1rem;
+}
